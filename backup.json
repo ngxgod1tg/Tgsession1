@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "balance": 0.0,
+      "joined_at": 1776319336.854916,
+      "name": "\ud835\ude4f \ud835\ude4a \ud835\ude49",
+      "user_id": 5048281046
+    },
+    {
+      "balance": 0.0,
+      "joined_at": 1776319348.518643,
+      "name": "\ud835\ude3e \ud835\ude4a \ud835\ude3f",
+      "user_id": 8394520324
+    },
+    {
+      "balance": 0.15,
+      "joined_at": 1776321809.4783247,
+      "name": "Zoro",
+      "user_id": 6570481354
+    }
+  ],
+  "accounts": [],
+  "pending_upi": [
+    {
+      "user_id": 6570481354,
+      "amount": 13.0,
+      "method": "upi",
+      "proof": "\ud83d\udcf8 Screenshot",
+      "status": "approved",
+      "created_at": 1776321829.8639185,
+      "chat_id": 6570481354,
+      "pid": "INR-F18860"
+    }
+  ],
+  "settings": [
+    {
+      "key": "upi_id",
+      "value": "tusharsk18.wallet@phonepe"
+    },
+    {
+      "key": "upi_qr",
+      "value": true
+    }
+  ],
+  "credited_invoices": [],
+  "purchase_history": [],
+  "banned_users": [],
+  "qr_store": [
+    {
+      "user_id": 5048281046,
+      "path": "upi_qr.png"
+    }
+  ],
+  "_backup_time": 1776323820.454531
+}
