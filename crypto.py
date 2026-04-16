@@ -31,8 +31,19 @@ import traceback
 import uuid
 from datetime import datetime
 from pathlib import Path
-from keep import keep_alive
-keep_alive() 
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running"
+
+def run_web():
+    app.run(host='0.0.0.0', port=10000)
+
+threading.Thread(target=run_web).start()
 
 from telethon import TelegramClient, events, Button, types
 from telethon.sessions import StringSession
