@@ -31,6 +31,8 @@ import traceback
 import uuid
 from datetime import datetime
 from pathlib import Path
+from keep import keep_alive
+keep_alive() 
 
 from telethon import TelegramClient, events, Button, types
 from telethon.sessions import StringSession
